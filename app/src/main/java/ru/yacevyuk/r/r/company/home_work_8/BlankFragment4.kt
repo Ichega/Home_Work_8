@@ -23,14 +23,14 @@ private lateinit var binding: FragmentFourthBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
        binding.buttonRed.setOnClickListener{
-           Navigation.findNavController(it).navigate(R.id.blankFragment33)
+           Navigation.findNavController(it).navigate(R.id.action_blankFragment4_to_blankFragment35)
 
        }
         binding.buttonGreen.setOnClickListener{
-            Navigation.findNavController(it).navigate(R.id.action_blankFragment4_to_blankFragment6)
+            Navigation.findNavController(it).navigate(R.id.action_blankFragment4_to_blankFragment8)
         }
         binding.buttonBlue.setOnClickListener{
-            Navigation.findNavController(it).navigate(R.id.action_blankFragment4_to_blankFragment23)
+            Navigation.findNavController(it).navigate(R.id.action_blankFragment4_to_blankFragment25)
         }
 
     }

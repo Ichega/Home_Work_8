@@ -29,6 +29,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:navGraph="@navigation/navigator"/>
 
-   
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
